@@ -1,0 +1,44 @@
+*** Javas Code Units ***
+
+# Writing code is similar to writing a document. It consists of special hierarchical units, which together form a whole.
+These are the expressions:
+* The Expression - An expression computes to a single value.
+* The Statement - Statements are stand alone units of work.
+And code blocks - A code block is a set of zero, one , or more statements, usually grouped together in some way to achieve a single goal.
+
+*** Whitespace ***
+# never write several blocks of code / statements in one line, since it need to be readable and easy to understand to whomever.
+
+*** Duplicated code ***
+
+# // Without declaring them as new variables, code is runnable and uses the memory more efficiently.
+ // However by doing this ur re-using code, if u need to change in one section. ALl codeblocks must be changed using the duplicated code.
+
+
+ *** The Benefits of the Method ****
+
+/* A Method is a way of reducing code duplication.
+A method can be executed many times with potentially different results, by passing data to the method in the form of arguments.
+*/
+
+
+________________________________________________________________________________________________________________________
+
+*** Executing a Method with parameters ***
+
+To execute a method that's defined with parameters, you have to pass variables, values, or expressions that match the type,
+order and number of the parameters declared.
+
+In the calculateScore example, we declared the method with four parameters, the first a boolean, and the other three of int data types.
+So we have to pass first a boolean, and then 3 int values as shown in this statements:
+
+calculateScore (true, 800, 5, 100);
+We can't pass the boolean type in any place, other than as the first argument, without an error.
+
+The statement below would cause an error as well.
+calculateScore  (800, 5, 100, true);
+And there's no possibility to pass only a partial set of parameters as shown here:
+calculateScore (true, 800);
+
+
+

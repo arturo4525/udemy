@@ -1,0 +1,61 @@
+# Class - based programming
+
+Its a way to model real world objects, as software objects.
+OOP - Object orientated programming.
+
+What are real world objects?
+____________________________
+* Computer
+* Keyboard
+* Door
+
+Two mayor components:
+- State
+- and behaviour
+
+State in terms of a computer object:
+* Amount of RAM
+* Operating system it's running
+* The size of the monitor
+* Hard drive size etc.
+
+State (ant)
+Age
+number of legs
+conscious state
+Wether it's sleeping or if it's awake.
+
+Behaviour(Computer)
+* Booting up
+* Shutting down
+* Beeping, or outputting some form of sound
+* Drawing something on the screen and so on
+
+All of this could be described as behaviours for a computer.
+
+Behaviour(Ant)
+* Eating
+* Drinking
+* Carrying food, those types of things
+* Fighting
+
+_____________________________
+
+*** SATE AND BEHAVIOUR ***
+
+Modelling real world objects as software objects, is a fundamental part of Object Oriented Programming.
+Software objects stores its states in fields, which can also be called variables or attributes.
+Objects expose their behaviour with methods.
+Class is a template, or the blueprint for creating objects.
+
+________________________
+*** Class as the blueprint ***
+The class describes the data(fields) and the behaviour (methods) that are relevant to the real world object we want to
+describe.
+
+A class member can be a field, or a method, or some other type of dependent element.
+If a field is static there is only one copy in memory, and this value is associated with the class, or template, itself.
+
+If a field is not static, it's called an instance field, and each object may have different value stored for this field.
+A static method can't be dependent on any object's state, so it can't reference any instance members.
+In other words, any method that operates on instance fields, needs to be non-static.

@@ -1,0 +1,36 @@
+package section5;
+
+public class MethodOverloading {
+
+    public static void main(String[] args) {
+
+        System.out.println("New Score Is " + calculateScore("Anders", 500));
+        System.out.println("New score is " + calculateScore(10));
+
+       /* int newScore = calculateScore("Anders" , 500);
+        System.out.println("New score is " + newScore);
+
+        calculateScore(75);
+        calculateScore();
+
+
+        */
+
+    }
+
+    public static int calculateScore(String playerName, int score){
+        System.out.println("Player " + playerName + " scored " + score + " points ");
+        return score * 1000;
+    }
+
+    public static int calculateScore(int score){
+        return calculateScore("Anonymous", score);
+    }
+    public static int calculateScore(){
+        System.out.println("No player name, no player scored");
+        return 0;
+    }
+
+
+
+}

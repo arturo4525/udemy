@@ -1,0 +1,4 @@
+# The overridden method can do one of three things:
+1. It can implement completely different behavior, overriding the behavior of the parent.
+2. It can simply call the parent class's method, which is somewhat redundant to do.
+3. Or the method can call the parent class's method, and include other code to run, so it can extend the functionality for the dog, for that specific behavior.

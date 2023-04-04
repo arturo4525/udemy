@@ -1,0 +1,12 @@
+# Javas default data type for a decimal literal is a double, which is larger and more precise than a float.
+# float myOtherFloatValue = 5.25 default value is a double and to convert to float on the same codeline one needs to cast.
+# Solution then would be float myOtherFloatValue = (float) 5.25; How ever, this is not an optional solution neither the best praxis way to code.
+# The number 5.25 is a double, so assigning it to a float will raise an error
+
+
+#Char stores two bytes of memory, or 16 bits and has a width of 16.
+# It's stored as a 2 byte number. Similar to the short.
+
+# Since chars are stored by 2 byte numbers in memory, when use it together with an operator like +, then the numbers in the memory gets added together.
+The char values don't get concatenated.
+

@@ -1,0 +1,22 @@
+# What does Encapsulation mean?
+
+In java, it means to hide things by making them private, or inaccessible.
+
+- This is used to make the interface simpler and hide unnecessary details.
+- To protect the integrity of data on an object, to hide or restrict access to some of the data and operations.
+- To decouple the published interface from the internal details of the class, we may hid actual names and types of class members.
+
+
+We protect the member of the class, and some methods, from external access.
+This prevents calling code from bypassing the rules and constraints, we've built into the class.
+When a new instance is created, its initialized with valid data.
+But also, i'm making sure that there's no direct access to the fields.
+
+Get used to encapsulation and try to work with that.
+
+
+To create an Encapsulated class you want to:
+Create constructors for object initialization, which enforces that only objects with valid data will get created.
+Use the private access modifier, sparingly and only as needed.
+Use setters and getters sparingly and only as needed.
+Use access modifiers that aren't private, only for the methods that the calling code needs to use.
